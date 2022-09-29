@@ -1,0 +1,168 @@
+    * {
+    margin: 0;
+    padding: 0;
+}
+    ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+    li {
+    float: right;
+    padding-left: 20px;
+    padding-right: 60px;
+    margin-top: 35px;
+}
+    li a {
+    display: block;
+    color: #8f2a2b;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+}
+    li a:hover {
+    background-color: white;
+    border-radius: 10px;
+}
+    .div1 {
+    background-color: black;
+    border: none;
+    text-align: right;
+    box-shadow: 1px 1px 7px 1px #8f2a2b;
+    position: fixed;
+    width: 100%;
+}
+    .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    .gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body{
+    background-color: #000000;
+  }
+
+/* about, description of unicef */
+    .about{
+    background-color: #000000;
+}
+    h1 {
+    color: #a32123;
+    text-align: center;
+    margin-top: 30px;
+}
+    * {
+    box-sizing: border-box;
+}
+    .column {
+    float: left;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;;
+}
+    .pages {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    margin: 60px;
+    margin-top: 0px;
+}
+    .two {
+    text-align:justify;
+    padding: 50px;
+    color: #a32123;
+}
+
+
+/* unicef's programs */
+    .act{
+        background-image: url("../images/thunder-gif-22.gif");
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: cover;
+    }
+    h2 {
+    color: #0f0f0f;
+    text-align: center;
+    margin-top: 40px;
+    text-size-adjust: 40px;
+    }
+    .pictable {
+    background: black;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px #a32123;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+    .space {
+    border-spacing: 40px;
+    width: 100px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+  }
+    .pict {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+
+  /* contacts */
+    .contact{
+        background-color: #ab2225;
+        padding: 30px;
+    }
+    .contactparts{
+        border-spacing: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    td{
+        color: #ab2225;
+    }
+
+    /* animation */
+    * {
+        box-sizing: border-box;
+      }
+      
+      .zoom {
+        padding: 50px;
+        transition: transform .2s;
+        width: 100px;
+        height: 150px;
+        margin: 0 auto;
+        background: black;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px 0px #a32123;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      .zoom:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+      }
+      .td2{
+        color: black;
+    }
