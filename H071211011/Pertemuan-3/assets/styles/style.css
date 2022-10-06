@@ -1,0 +1,28 @@
+#body {
+	background-color: rgb(197, 202, 206);
+	color: black;
+	font-family: jackwriteBold;
+}
+#h2-container {
+	margin: 20px;
+	text-align: center;
+}
+
+@font-face {
+	font-family: paladinssemiital;
+	src: url(/assets/fonts/paladinssemiital.ttf);
+}
+
+@font-face {
+	font-family: JackwriteBold;
+	src: url(/assets/fonts/JackwriteBold.ttf);
+}
+
+#logo {
+	font-family: paladinssemiital;
+	font-size: 30px;
+}
+
+#list {
+	background-color: rgb(165, 168, 170);
+}
