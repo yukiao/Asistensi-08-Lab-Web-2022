@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Praktikum 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <p id="home"></p>
+  <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #030001;   box-shadow: 1px 1px 7px 1px #370504;">
+    <div class="container-fluid">
+      <img src="assets/images/gblogo.gif" width="70" height="60">
+      <img src="assets/images/gblogorev.png" width="120" height="60">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active aria-current="page href="#home" style="color: #c82008; font-size:x-large">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about" style="color: #c82008; font-size:x-large">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #c82008; font-size:x-large">
+              Others
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#informations">Movie Lists</a></li>
+              <li><a class="dropdown-item" href="#mainchara">Main Characters</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#others">Other Infos</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex text-white">
+          <input class="form-control me-2 text-white" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success text-white" type="submit" style="border-color: #370504;">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <audio autoplay controls loop hidden>
+    <source src="assets/audios/Ray Parker Jr. - Ghostbusters (minus 3).mp3" type="audio/mpeg" class="center"/>
+    <source src="assets/audios/Ray Parker Jr. - Ghostbusters (minus 3).mp3" type="audio/wav" class="center"/>
+  </audio>
+
+
+  <!-- COROUSEL -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="margin-top:30px;">
+      <div class="carousel-item active">
+        <img src="assets/images/maincoro.gif" class="d-block w-100" alt="main pic">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/seccon.gif" class="d-block w-100" alt="2nd pic">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/thirdcor.gif" class="d-block w-100" alt="3rd pic">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+  <!-- DESCRIPTION -->
+  <div id="about" style="background-color: #370504; padding-bottom: 70px;"></div>
+  <div style="background-color: #370504; padding-bottom: 30px;">
+    <br>
+  <figure class="text-center text-white">
+  <img src="assets/images/gbheader.png" style="width: 20%;">
+  </figure>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-white">
+        Ghostbusters is a 1984 American supernatural comedy film directed and produced by Ivan Reitman, and written by Dan Aykroyd and Harold Ramis. It stars Bill Murray, Aykroyd, and Ramis as Peter Venkman, Ray Stantz, and Egon Spengler, three eccentric
+        parapsychologists who start a ghost-catching business in New York City. It also stars Sigourney Weaver and Rick Moranis, and features Annie Potts, William Atherton, and Ernie Hudson in supporting roles.
+        Based on his own fascination with spirituality, Aykroyd conceived Ghostbusters as a project starring himself and John Belushi, in which they would venture through time and space battling supernatural threats. Following Belushi's death in 1982,
+        and with Aykroyd's concept deemed financially impractical, Ramis was hired to help rewrite the script to set it in New York City and make it more realistic. 
+      </div>
+      <div class="col-md-6 text-white">
+        It was the first comedy film to employ expensive special effects, and Columbia Pictures, concerned about its relatively high $25-30 million budget, had little faith in its box office potential. Filming took place from October 1983 to January 1984,
+        in New York City and Los Angeles. Due to competition for special effects studios among various films in development at the time, Richard Edlund used part of the budget to found Boss Film Studios,
+        which employed a combination of practical effects, miniatures, and puppets to deliver the ghoulish visuals. Ghostbusters was inspired by Dan Aykroyd's fascination with and belief in the paranormal, which he inherited from his father, who had written
+        the book A History of Ghosts;[9] his mother, who claimed to have seen ghosts; his grandfather, who experimented with radios to contact the dead.
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6 text-white">
+        Ghostbusters was released on June 8, 1984, to critical acclaim and became a cultural phenomenon. It was well received for its blend of comedy, action, and horror, and Murray's performance was often singled out for praise. It earned $282.2 million
+        during its initial theatrical run, making it the second-highest-grossing film of 1984 in the United States and Canada, and the then-highest-grossing comedy ever. It was the number-one film in theaters
+        for seven consecutive weeks and one of only four films to gross more than $100 million that year. Further theatrical releases have increased the total gross to around $295.2 million, making it one of the most successful comedy films of the 1980s.
+        In 2015, the Library of Congress selected it for preservation in the National Film Registry. Its theme song, "Ghostbusters" by Ray Parker Jr., was also a number-one hit.
+      </div>
+      <div class="col-md-6 text-white">
+        With its effect on popular culture, and a dedicated fan following, the success of Ghostbusters launched a multi-billion dollar multimedia franchise. This included the popular animated television series The Real Ghostbusters (1986), its sequel Extreme
+        Ghostbusters (1997), video games, board games, comic books, clothing, music, and haunted attractions. Ghostbusters was followed in 1989 by Ghostbusters II, which fared less well financially and critically,
+        and attempts to develop a second sequel paused in 2014 following Ramis's death. After a 2016 reboot received mixed reviews and underperformed financially, a second sequel to the 1984 film, Ghostbusters: Afterlife, was released in November 2021.
+      </div>
+      </div>
+    </div>
+    <br>
+  </div>
+</div>
+
+
+<!-- GRID SYSTEM AND BADGE -->
+<div id="informations" style="background-color: #504a3c;"></div>
+<div style="background-color: #504a3c;">
+  <br>
+  <div class="container" style="background-color: #3f3a2a;padding-top: 70px;padding-bottom: 70px;">
+  <br>
+<figure class="text-center text-white">
+<h2>Movie lists</h2>
+</figure>
+
+  <div class="row">
+    <div class="col-md-6 col-xl-3 style="padding-left:20px;">
+      <span class="badge bg-warning text-dark">Ghostbusters (1984)</span>
+      <ul>
+        <li class="text-white">Bill Murray as Peter Venkman</li>
+        <li class="text-white">Dan Aykroyd as Ray Stantz</li>
+        <li class="text-white">Harold Ramis as Egon Spengler</li>
+        <li class="text-white">Ernie Hudson as Winston Zeddemore</li>
+        <li class="text-white">Sigourney Weaver as Dana Barrett</li>
+        <li class="text-white">Rick Moranis as Louis Tully</li>
+      </ul>
+    </div>
+
+    <div class="col-md-6 col-xl-3 style="padding-left:20px;">
+      <span class="badge bg-warning text-dark">Ghostbusters II (1986)</span>
+      <ul>
+        <li class="text-white">Bill Murray as Peter Venkman</li>
+        <li class="text-white">Dan Aykroyd as Ray Stantz</li>
+        <li class="text-white">Harold Ramis as Egon Spengler</li>
+        <li class="text-white">Ernie Hudson as Winston Zeddemore</li>
+        <li class="text-white">Sigourney Weaver as Dana Barrett</li>
+        <li class="text-white">Rick Moranis as Louis Tully</li>
+      </ul>
+    </div>
+
+    <div class="col-md-6 col-xl-3 style="padding-left:20px;">
+      <span class="badge bg-warning text-dark">Ghostbusters (2016)</span>
+      <ul>
+        <li class="text-white">Kristen Wiig as Dr. Erin Gilbert</li>
+        <li class="text-white">Melissa McCarthy as Dr. Abigail L. "Abby" Yates</li>
+        <li class="text-white">Kate McKinnon as Dr. Jillian "Holtz" Holtzmann</li>
+        <li class="text-white">Leslie Jones as Patricia "Patty" Tolan</li>
+        <li class="text-white">Chris Hemsworth as Kevin Beckman</li>
+        <li class="text-white">Neil Casey as Dr. Rowan North</li>
+      </ul>
+    </div>
+
+      <div class="col-md-6 col-xl-3" style="padding-left: 20px;">
+        <span class="badge bg-warning text-dark">Ghostbusters : Afterlife (2021)</span>
+        <ul>
+          <li class="text-white">Mckenna Grace as Phoebe Spengler</li>
+          <li class="text-white">Finn Wolfhard as Trevor Spengler</li>
+          <li class="text-white">Logan Kim as Podcast</li>
+          <li class="text-white">Celeste O'Connor as Lucky Domingo</li>
+          <li class="text-white">Carrie Coon  as Callie Spengler</li>
+          <li class="text-white">Paul Rudd as Gary Grooberson</li>
+        </ul>
+      </div>
+
+  </div>
+  <br>
+  </div>
+  <br>
+  </div>
+
+<!-- CARD -->
+<div id="mainchara" style="background-color: #370504;"></div>
+<div style="background-color: #370504; overflow: hidden; padding-top: 30px;padding-bottom: 30px;">
+<figure class="text-center text-white">
+  <h2>Main Characters</h2>
+  </figure>
+</div>
+<div class="row g-4" style="background-color: #370504; justify-content: space-around; margin-left:0px; margin-right:0px;">
+  <div class="col-md-6 col-xl-3" style="margin-bottom: 40px; padding: 40px;">
+    <div class="card h-100">
+      <img src="assets/images/peter.gif" class="card-img-top" alt="sam">
+      <div class="card-body">
+        <h5 class="card-title">Peter Venkman</h5>
+        <p class="card-text">He is the leader, he is characterized by his blunt persona, laid-back approach to his profession, and his womanizing demeanor.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-xl-3" style="margin-bottom: 40px; padding: 40px;">
+    <div class="card h-100">
+      <img src="assets/images/raymond.gif" class="card-img-top" alt="clover">
+      <div class="card-body">
+        <h5 class="card-title">Raymond Stantz</h5>
+        <p class="card-text">Ray is considered the "heart" of the Ghostbusters by the other members of the team, and the second in command. He is an expert on paranormal history and metallurgy.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-xl-3" style="margin-bottom: 40px; padding: 40px;">
+    <div class="card h-100">
+      <img src="assets/images/egon.gif" class="card-img-top" alt="alex">
+      <div class="card-body">
+        <h5 class="card-title">Egon Spengler</h5>
+        <p class="card-text">Egon Spengler is the brains of the Ghostbusters - described in the original script as a "New Wave Mr. Spock" - and the creator of the Ghostbusters' equipment along with Raymond Stantz. </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-xl-3" style="margin-bottom: 40px; padding: 40px;">
+    <div class="card h-100">
+      <img src="assets/images/winston.gif" class="card-img-top" alt="mandy">
+      <div class="card-body">
+        <h5 class="card-title">Winston Zeddemore</h5>
+        <p class="card-text">Unlike the other members of the team, Winston is not a scientist with a background in the paranormal; the novelization says that he was in the Marines. He is hired when the Ghostbusters' business begins to pick up.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ALERT -->
+<div id="others" style="background-color: #413c26;"></div>
+<div class="alert alert-dark" role="alert" style="background-color: #413c26; color: white; margin-bottom: 0px; border-radius: 4px; border-color: black;">
+  For more informations, <a href="https://www.ghostbusters.com" class="alert-link" style="color: white;"> click here!</a>
+</div>
+
+<!-- FOOTER AND FORM -->
+<div style="background-color: #030001; padding-top: 20px; padding-bottom: 20px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h2 style="color: white;">Critics and Suggestions</h2>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label" style="color: white;">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label" style="color: white;">Critics and Suggestions</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="background-color: #c82008; border-color: #370504;">Submit</button>
+      </form>
+        </div>
+
+      <div class="col-6 col-md-2" style="padding-top:90px;color: white;"">
+        <ul>
+          Release date <br>
+          Directed by <br>
+          Music composed by<br>
+          Art director<br>
+          Featured song
+        </ul>
+      </div>
+      <div class="col-6 col-md-2" style="padding-top:90px;color: white;"">
+        : June 1, 1984 (USA)<br>
+        : Ivan Reitman<br>
+        : Elmer Bernstein<br>
+        : John DeCuir Jr. <br>
+        : Ghostbusters
+      </div>
+    </div>
+
+</body>
+</html>
