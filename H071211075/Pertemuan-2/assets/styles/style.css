@@ -1,0 +1,160 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    width: 1920px;
+    margin: auto;
+    position: relative;
+    background-color:#0F3460;
+    z-index: 99;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    margin-left: 100px;    
+    font-family: cursive;
+    color: #FFFFFF;
+}
+.menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    line-height: 80px;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li a{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.banner{
+    height: 60vh;
+    background-image: url(../images/travelpic1.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.banner ::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(55, 141, 195, .3);
+    z-index: -1;
+}
+.banner h2{
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border: 3px solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 1;
+}
+section{
+    padding: 50px 0;
+}
+
+section h3{
+    text-align: center;
+    padding: 20, 20;
+}
+.p1{
+    float:left;
+    width:400px;
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: 2px;
+    margin-left: 270px;
+    margin-right:   0px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.p2{
+    float:left;
+    width:400px;
+    word-spacing: 2px;
+    margin-left: 270px;
+    margin-right: 300px;
+    margin-top: 5px;
+    text-align: justify;
+}
+.p3{
+    float:left;
+    width:400px;
+    word-spacing: 2px;
+    margin-left: 776px;
+    margin-right: 300px;
+    margin-top: -308px;
+    text-align: justify;
+}
+.p4{
+    float:left;
+    width:400px;
+    word-spacing: 2px;
+    margin-left: 776px;
+    margin-right: 300px;
+    margin-top: -127px;
+    text-align: justify;
+}
+.kelima-gambar{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    justify-content: space-evenly;
+    background-color:#0F3460;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    color: #FFFFFF;
+}
+.kelima-foto{
+    width: 260px;
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: 400px;
+}
+nav{
+    z-index: 99;
+}
