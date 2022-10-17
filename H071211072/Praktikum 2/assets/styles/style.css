@@ -1,0 +1,187 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/*NavBar*/
+
+.fContainer {
+    display: flex;
+    width: 100%;
+    height: 6vh;
+}
+
+.wrapper {
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+} 
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1,5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+
+.lastname {
+    color: crimson;
+    font-weight: 700;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+.active {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+}
+
+.active:hover {
+    color: black !important;
+}
+
+/*jumbotron*/
+
+.container-fluid {
+    width: 100%;
+}
+
+.jumbotron {
+    background-image: url(../images/profile.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 84vh;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron h1 {
+    color: whitesmoke;
+    font-size: 3cm;
+    text-align: center;
+    padding: 200px 0 300px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    position: relative;
+}
+
+/*Text*/
+
+.article {
+    /* height: 750px; */
+    margin-top: 50px;
+}
+
+.article h1 {
+    text-align: center;
+    font-size: 1cm;
+}
+
+.article .article-text {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.article .article-text .paragraft {
+    margin: 15px 20px;
+    display: flex;
+}
+
+.article .article-text .paragraft p {
+    font-size: 20px;
+    width: 50%;
+    margin: 20px;
+}
+
+/*Gambar*/
+
+.galery {
+    padding-top: 50px;
+    height: 750px;
+}
+
+.galery .galery-wrap {
+    padding: 30px 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.galery .galery-wrap .galery-content {
+    margin: 1px 20px;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.galery .galery-content p {
+    font-size: 15px;
+}
+
+.galery .galery-content img {
+    width: 200px;
+    height: 200px;
+}
+#test-box-id{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.test-box{
+    width: 300px;
+    height: 300px;
+    background-color: black !important;
+}
