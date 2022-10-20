@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal no. 2</title>
+</head>
+<body>
+    <script>
+        var a = prompt("Perkalian berapa yang kau mau?");
+        if (!a) {
+            console.log("Maaf, kamu belum menginput angka");
+        }
+        else if (isNaN(a)) {
+            console.log("Yang diinput angka lah bang");
+        }
+        else {
+            var b = prompt("Ingin dikalikan sampai berapa?");
+            if (isNaN(b)) {
+                console.log("Yang diinput angka lah bang");
+            }
+            else {
+                var jumlah = 0;
+                for (let i = 1; i <= b; i++) {
+                    let total = i * a;
+                    console.log(`${i} x ${a} = ${total}`);
+
+                    // jumlah semua perkalian
+                    for (let j = 1; j <= i; j++) {
+                        jumlah = jumlah + total;
+                        break;
+                    }
+                }
+                console.log(`Jumlah seluruh hasil perkalian = ${jumlah}`);
+            }
+        } 
+    </script>
+</body>
+</html>
