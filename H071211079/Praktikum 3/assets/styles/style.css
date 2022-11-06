@@ -1,0 +1,114 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+body{
+    background-image: url(../images/latar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.nav-link{
+    margin-left: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-nav{
+    margin-left: 200px;
+}
+.carousel-item{
+    height: 100%;
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+}
+
+.carousel-inner{
+    margin-bottom: -20px;
+}
+
+.logo{
+    border-radius: 150px;
+    width: 10%;
+    height: 10%;
+    margin-top: -5px;
+}
+
+.aespa{
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.history-item{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.teks{
+    text-align: justify;
+    justify-content: center;
+    color: #fff;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.members-item{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.garis{
+    color: #fff;
+    margin-top: 50px;
+}
+
+
+
+.card-text{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #5f085f;
+}
+
+.ae{
+    text-align: justify;
+    justify-content: center;
+    color: #fff;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    font-family: 'Quicksand', sans-serif;
+    size: 30px;
+}
+
+.discography-item{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image{
+    height: 25%;
+    width: 25%;
+}
+
+.btn-outline-light{
+    background-color: #5f085f;
+    margin-top: 10px;
+}
+
+
+
