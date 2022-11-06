@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="/assets/style/style.css" />
+	</head>
+	<body>
+		<h1>BLACKJACK</h1>
+		<p id="message-el">Want to play around?</p>
+		<p id="cards-el">Cards:</p>
+		<p id="sum-el">Sum:</p>
+		<button id="startButton" onclick="start()">START GAME</button>
+		<button id="takeCard" onclick="takeCard()">TAKE CARD</button>
+		<p id="message-el-2"></p>
+		<p>Your Money : Rp.<span id="player-el"> 5000</span></p>
+		<input type="number" id="bet-el" placeholder="Set Your Bet" />
+		<div>
+			<button onclick="resetMoney()">Reset Money</button>
+		</div>
+
+		<script src="/assets/script/script.js"></script>
+	</body>
+</html>
