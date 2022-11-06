@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack Game</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body class="bgimage">
+
+    <audio autoplay controls hidden>
+        <source src="assets/audios/funk-it-49967.mp3" type="audio/mpeg" class="center">
+        <source src="assets/audios/funk-it-49967.mp3" type="audio/wav" class="center">
+      </audio>
+
+		<div class="container">
+			<div class="container1">
+				<img src="assets/images/blackjackgamehd.gif" style="width: 120vh; margin-top: none;">
+				<h2 class="mb-5" style="color: #c8c8c8;">play a round?</h2>
+				<h2 style="color: #c8c8c8;">your cards :</h2>
+				<div class="yourCard mb-3" id="yourCard"></div>
+
+				<h2 style="color: #c8c8c8;">sum :</h2>
+				<h2 id="yourSum" style="color: #e0d600; font-size: 30px; margin-top: 2px;"></h2>
+
+				<div class="d-grid gap-2 d-md-block mb-5">
+					<button
+						onclick="startGame()"
+						id="startGameButton"
+						type="button"
+						style="background-color: #a44791;"
+					>
+						start game
+					</button>
+					<button onclick="takeCard()" type="button" style="background-color: #e0d600">
+						take card
+					</button>
+					<h3 id="warning" style="color: red"></h3>
+				</div>
+
+				<h2 style="color: #c8c8c8; margin-top: 2px;">your money :</h2>
+				<div class="money">
+					<h2 style="color: #e0d600; font-size: 30px; margin-top: 2px;">
+						$
+						<h2 id="yourMoney" style="color: #e0d600; font-size: 30px; margin-top: 2px;"> 5000</h2>
+					</h2>
+				</div>
+			</div>
+
+			<div>
+			<form>
+				<input
+					class="form-control form-control-sm mb-3"
+					id="bet"
+					type="number"
+					placeholder="Set Your Bet"
+					aria-atomic=".form-control-sm example"
+                    style="width: 40vh; margin-left: 390px;"
+                />
+			</form>
+			</div>
+
+			<div>
+				<button onclick="reset()" style="width: 14vh; height: 3vh; margin-left:
+				497px; margin-top: 20px; background-color: #245c4e">reset</button>
+				<script src="index.js"></script>
+			</div>
+			
+		</div>
+
+<script src="assets/scripts/script.js"></script>
+</body>
+</html>
