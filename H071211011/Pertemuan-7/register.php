@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
 	);
 	if ($result == 2) {
 		echo "<script>alert('Registrasi Berhasil')
-						window.location.replace('http://localhost/Percobaan/index.php')
+						window.location.replace('http://localhost/TuPrak7/index.php')
 						</script>";
 	} else if ($result == 1) {
 		echo
