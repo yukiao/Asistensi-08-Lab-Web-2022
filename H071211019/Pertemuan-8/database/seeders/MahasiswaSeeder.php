@@ -23,7 +23,24 @@ class MahasiswaSeeder extends Seeder
                 'nim' => $faker->unique()->bothify('?0########'),
                 'nama' => $faker->name(),
                 'alamat' => $faker->address(),
-                'fakultas' => $faker->words(2, true)
+                'fakultas' => $faker->randomElement([
+                    'Matematika dan Ilmu Pengetahuan Alam',
+                    'Hukum',
+                    'Kedokteran',
+                    'Kedokteran Gigi',
+                    'Ekonomi dan Bisnis',
+                    'Kesehatan Masyarakat',
+                    'Ilmu Kelautan dan Perikanan',
+                    'Ilmu Sosial dan Politik',
+                    'Kehutanan',
+                    'Peternakan',
+                    'Ilmu Budaya',
+                    'Teknik',
+                    'Pertanian',
+                    'Kesehatan Masyarakat',
+                    'Keperawatan',
+                    'Farmasi'
+                ]),
             ]);
         }
     }

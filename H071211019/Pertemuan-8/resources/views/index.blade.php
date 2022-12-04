@@ -41,7 +41,7 @@
             @foreach ($data as $index=>$row)
                 <tr>
                     <td scope="col">{{ $index + $data->firstItem() }}</td>
-                    <td scope="col">{{ $row->nim }}</td>
+                    <td scope="col">{{ Str::upper($row->nim) }}</td>
                     <td scope="col">{{ $row->nama }}</td>
                     <td scope="col">{{ $row->alamat }}</td>
                     <td scope="col">{{ $row->fakultas }}</td>
@@ -94,17 +94,14 @@
             var namaMahasiswa = $(this).attr('data-nama');
             swal({
                     title: "Apakah kamu yakin?",
-                    text: "Kamu akan menghapus data Mahasiswa bernama "+namaMahasiswa+" ",
+                    text: "Kamu akan menghapus data "+namaMahasiswa+" ",
                     icon: "warning",
                     buttons: true,
                     dangerMode: true,
                 })
                 .then((willDelete) => {
                     if (willDelete) {
-                        window.location = "/delete/"+idMahasiswa+""
-                        swal("Data "+namaMahasiswa+" berhasi dihapus", {
-                            icon: "success",
-                        });
+                        window.location = "/delete/"+idMahasiswa+"";
                     } else {
                         swal({
                             title: "Canceled",
