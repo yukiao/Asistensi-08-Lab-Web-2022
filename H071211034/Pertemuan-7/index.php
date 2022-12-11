@@ -9,7 +9,7 @@
 //   exit;
 // }
 
-$servername = "localhost:3308";
+$servername = "localhost:3307";
 $username = "root";
 $password = "";
 $database = "mahasiswa";

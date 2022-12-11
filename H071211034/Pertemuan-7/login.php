@@ -31,11 +31,7 @@ if (isset($_POST["login"])) {
   $error = true;
 }
 
-
-
 ?>
-
-
 
 <!DOCTYPE html>
 <html>
@@ -46,26 +42,13 @@ if (isset($_POST["login"])) {
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/71f23b0b94.js" crossorigin="anonymous"></script>
 </head>
-<style>
-body {
-  height: 100vmin;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.title {
-  width: 100vmax;
-  text-align: center;
-}
-</style>
 
 <body class="align-items-center">
   <div class="title">
-    <h1>Profil</h1>
+    <h1 class="text-center">Login</h1>
   </div>
   <?php if (isset($error)) { ?>
-  <p style="color:red; text-align: center; font-size: 10px; ">Password atau username anda salah!</p>
+  <p style="color:red; text-align: center; font-size: 40px; ">Password atau username anda salah!</p>
   <?php } ?>
   </div>
   <div class="container text-left ">
@@ -83,56 +66,12 @@ body {
           <button type="submit" name="login" class="btn btn-primary">Submit</button>
         </form>
         <div class="link">
-          <a href="#">Already have an account?</a> or
+          <a>Don't have account?</a> 
           <a href="registrasi.php">sign up</a>
         </div>
       </div>
     </div>
   </div>
-
-
-
-
-
-
-  <!-- 
-
-  <div class="login">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-          <div class="title">control</div>
-          <?php if (isset($error)) { ?>
-          <p style="color:red; text-align: center; font-size: 10px; ">Password atau username anda salah!</p>
-          <?php } ?>
-        </div>
-        <form action="" method="post">
-
-          <ul>
-            <li class="username">
-              <i class="fa-solid fa-user"></i>
-              <input type="text" name="username" id="username" placeholder="username" required>
-            </li>
-            <li class="password">
-              <i class="fa-solid fa-lock"></i>
-              <input type="password" name="password" id="password" placeholder="password" required>
-            </li>
-            <li>
-              <button type="submit" class="button" name="login">Login</button>
-            </li>
-            <div class="link">
-              <a href="#">Already have an account?</a> or
-              <a href="registrasi.php">sign up</a>
-            </div>
-          </ul>
-
-
-        </form>
-      </div>
-    </div>
-  </div>
-  </div> -->
-
 </body>
 
 </html>
